@@ -1,0 +1,325 @@
+@font-face {
+
+	font-family: aFont;
+
+	src: url(fonts/Raleway-Regular.ttf); /* TTF file for CSS3 browsers */
+
+}
+
+@font-face {
+
+	font-family: bFont;
+
+	src: url(fonts/Raleway-Bold.ttf); /* TTF file for CSS3 browsers */
+
+}
+
+@font-face {
+
+	font-family: cFont;
+
+	src: url(fonts/Raleway-ExtraBold.ttf); /* TTF file for CSS3 browsers */
+
+}
+
+@font-face {
+	font-family: dFont;
+	
+	src: url(fonts/Raleway-Italic.ttf); /* TTF file for CSS3 browsers*/
+}
+
+body {
+	font-family: aFont;
+}
+
+h1, h2, h3, h4 {
+	font-family: bFont;
+	font-weight: normal;
+}
+
+strong {
+	font-weight: normal;
+	font-family: bFont;
+}
+
+#navbar {
+	background-color: #202133;
+}
+
+#navbar .nav-link {
+	color: #fff;
+	font-size: 20px;
+	font-family: bFont;
+}
+
+#banner {
+	padding-top: 40px;
+	background-color: #242537;
+	color: #fff;
+	font-size: 20px;
+}
+
+#banner h3 {
+	font-size: 30px;
+}
+
+#banner .btn1 {
+	border: 1px solid #FFEE03;
+	border-radius: 24px;
+	font-size: 14px;
+	color: #fff;
+	padding: 6px;
+	width: 125px;
+	background: none;
+	transition: all .3s;
+	min-height: 36px;
+}
+
+#banner .btn1:hover {
+	background-color: #FFEE03;
+	color: #000;
+	box-shadow: 0px 2px 4px #000;
+}
+
+#banner .btn2 {
+	border-radius: 24px;
+	font-size: 14px;
+	color: #000;
+	padding: 6px;
+	width: 125px;
+	background: #FFEE03;
+	transition: all .3s;
+	min-height: 36px;
+	border: 1px solid #FFEE03;
+}
+
+#banner .btn2:hover {
+	background: none;
+	color: #fff;
+	box-shadow: 0px 2px 4px #000;
+}
+
+#banner .left {
+	padding-top: 120px;
+}
+
+#home1 {
+	padding-top: 80px;
+	background-color: #242537;
+	color: #fff;
+}
+
+#home1 .left {
+	padding-top: 40px;
+}
+
+#home1 .btn1 {
+	border: 1px solid #FFEE03;
+	border-radius: 24px;
+	font-size: 14px;
+	color: #fff;
+	padding: 6px;
+	width: 125px;
+	background: none;
+	transition: all .3s;
+	min-height: 36px;
+}
+
+#home1 .btn1:hover {
+	background-color: #FFEE03;
+	color: #000;
+	box-shadow: 0px 2px 4px #000;
+}
+
+#home2 {
+	padding-top: 300px;
+	padding-bottom: 200px;
+	background-image: url("../images/quote.jpg");
+	background-size: cover;
+	color: #000;
+	font-size: 30px;
+}
+
+#home3 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#home3 .row {
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+#home3 h3 {
+	font-size: 30px;
+	color: #DF0000;
+}
+
+#home3 h4 {
+	font-size: 25px;
+}
+
+#home3 .content {
+	padding-top: 60px;
+	font-size: 20px;
+}
+
+#home3 .col-md-6 img {
+	transition: all .3s;
+	box-shadow: 0px 3px 5px #888;
+}
+
+#home3 .col-md-6 img:hover {
+	transform: scale(1.1);
+}
+
+#home4 {
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+#home4 h3 {
+	font-size: 30px;
+	color: #DF0000;
+}
+
+#home4 .rack {
+	margin-top: 20px;
+}
+
+#home4 .rack .col-md-6 {
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: 4px solid #fff;
+	transition: all .3s;
+}
+
+#home4 .rack .col-md-6:hover {
+	border-bottom: 4px solid #DF0000;
+}
+
+#home5 {
+	background-color: #EBEBEB;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#home5 .row {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+#home5 h3 {
+	color: #DF0000;
+}
+
+
+#footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #000;
+	color: #fff;
+	font-size: 20px;
+}
+
+#footer a {
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 736px) {
+	#banner .left {
+		padding-top: 40px;
+		text-align: center;
+	}
+	
+	#banner .right {
+		padding-top: 30px;
+	}
+	
+	#home4 .col-12{
+		padding-top: 50px;
+		text-align: center;
+	}
+	
+	#home2 {
+		padding-top: 100px;
+	}
+	
+}
+
+
+
+
+
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) { /* STYLES GO HERE */
+
+
+	
+
+}
+
+
+
+@media (min-device-width : 737px)
+and	(max-device-width : 991px){
+	
+	 
+    
+	
+}
+
+
+@media only screen 
+and (min-device-width : 737px) 
+and (max-device-width : 767px) { /* STYLES GO HERE */
+
+
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+	
+	
+	
+  
+}
+
+
+
+
+@media (min-width:320px) and (max-width: 480px) { 
+	
+    
+    
+}
+
+
